@@ -227,7 +227,7 @@
     height: auto;
   }
    }
-    @media (max-width:500px){
+    @media (max-width:600px){
     .hero{
       height: 67rem;
     }
