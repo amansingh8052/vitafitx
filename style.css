@@ -348,6 +348,8 @@
   .pricing {
     background-color: #f2ecec;
     padding: 60px 0;
+    width: 100%;
+    overflow: hidden;
   }
   
   .container2 {
