@@ -227,26 +227,35 @@
     height: auto;
   }
    }
-    @media (max-width:600px){
+    @media (max-width:500px){
     .hero{
-      height: 62rem;
+      height: 67rem;
     }
     .hero h1 {
-      font-size: 25px;
+      font-size: 20px;
+      margin-left:20px;
     }
     #logo1{
-      width: 150px;
+      width: 120px;
       left: 200px;
       top: 170px;
     }
     
     .hero p {
-      font-size: 15px;
+      font-size: 12px;
+      margin-left:20px;  
     }
   
      p.text{
-      font-size: 15px;
+      font-size: 10px;
+      margin-left:20px;   
     }
+    .image-container{
+      position: absolute;
+       bottom: -300px;
+       left: -350px;
+       max-width: 155%;
+    }    
   }
   /* About section styles */
   .about {
