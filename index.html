@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Gym Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8f218c5ee4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav id="navbar" class="navbar">
+      <div class="logo">
+        <a href="#"><img class="logo0" src="images/logo.png" alt="logo"></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Service">Services</a></li>
+        <li><a href="#Pricing">Pricing</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <div class="dropdown">
+        <button onclick="show_hide()" class="menu-button"><i class="fa-solid fa-bars fa-2xl" style="color: #e6e7ea;"></i></button>
+  
+        <!-- dropdown list items will show when we click the drop button -->
+        <div id="list-items">
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Service">Services</a>
+          <a href="#Pricing">Pricing</a>
+          <a href="#Contact">Contact</a>
+        </div>
+        </div>
+     </div>
+      
+    </nav>
+  </header>
+
+  <section id="Home" class="hero">
+    <h1>Welcome to <img id="logo1" src="images/logo.png" alt=""></h1>
+    <p>Your path to a healthier lifestyle starts here.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis consectetur finibus. Donec nec sagittis mauris. Duis et euismod lacus. Nulla faucibus dapibus nisl a blandit. Sed imperdiet felis ut nisi vestibulum, ut tempus lectus ullamcorper.</p>
+    <a href="#" class="cta-btn">Join Now</a>
+    <div class="image-container">
+      <img class="main" src="images/1.png" alt="gym image">
+    </div>
+    
+    
+  </section>
+
+  <section id="About" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="container0">
+      
+        <div class="about-card">
+          <img class="about-img" src="images/gym1.jpg" alt="">
+          <p>Donec nec sagittis mauris. Duis et euismod lacus. Nulla faucibus dapibus nisl a blandit. Sed imperdiet felis ut nisi vestibulum, ut tempus lectus ullamcorper.</p>
+        </p>
+         
+        </div>
+        <div class="about-card">
+          <img class="about-img" src="images/gym2.jpg" alt="">
+          <p>Donec nec sagittis mauris. Duis et euismod lacus. Nulla faucibus dapibus nisl a blandit. Sed imperdiet felis ut nisi vestibulum, ut tempus lectus ullamcorper.</p>
+        </p>
+        </div>
+        <div class="about-card">
+          <img class="about-img" src="images/gym3.jpg" alt="">
+          <p>Donec nec sagittis mauris. Duis et euismod lacus. Nulla faucibus dapibus nisl a blandit. Sed imperdiet felis ut nisi vestibulum, ut tempus lectus ullamcorper.</p>
+        </p>
+        </div>
+      </div>
+     </div>
+   
+  </section>
+
+  <section class="services" id="Service">
+    <h2>Our Services</h2>
+    <div class="container1">
+      
+    
+      <div class="card-container">
+        <div class="card">
+          <img class="first" src="images/personal.jpg" alt="Card Image 1">
+          <h3>Personal Training</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+          <img src="images/group.jpg" alt="Card Image 2">
+          <h3>Group Classes</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+          <img src="images/cardio.jpg" alt="Card Image 3">
+          <h3>Cardio Workout</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+     
+    </div>
+  </section>
+<!-- pricing section -->
+  <section class="pricing" id="Pricing">
+    <h1 class="price-heading">Pricing</h1>
+    <div class="container2">
+      
+      <div class="price-card">
+        <h3>Basic</h3>
+        <p class="price">$29.99/month</p>
+        <ul>
+          <li>Access to gym facilities</li>
+          <li>Free fitness classes</li>
+          <li>Personal trainer sessions</li>
+          <li>Access to gym facilities</li>
+        </ul>
+        <button class="btn">Sign Up</button>
+       
+      </div>
+      <div class="price-card">
+        <h3>Premium</h3>
+        <p class="price">$49.99/month</p>
+        <ul>
+          <li>All Basic features</li>
+          <li>Swimming pool access</li>
+          <li>Group sports activities</li>
+          <li>Smoothie bar</li>
+        </ul>
+        <button class="btn">Sign Up</button>
+      </div>
+      <div class="price-card">
+        <h3>Ultimate</h3>
+        <p class="price">$79.99/month</p>
+        <ul>
+          <li>All Premium features</li>
+          <li>Spa and sauna access</li>
+          <li>Personalized nutrition plan</li>
+          <li>Free merchandise</li>
+        </ul>
+        <button class="btn">Sign Up</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="Contact" class="contact">
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+  
+    <main class="main1">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <p>If you have any questions or inquiries, feel free to contact us using the information below:</p>
+          <ul>
+            <li>Email: info@VitafitX.com</li>
+            <li>Phone: +1 (123) 456-7890</li>
+            <li>Address: 123 Fitness Street, City, State, ZIP</li>
+          </ul>
+          <p>FOLLOW US ON:</p><div class="social">
+          <a href="#"><i class="fa-brands fa-facebook fa-2xl social-logo" style="color: #2106d2;"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram fa-2xl social-logo" style="color: #e82c1e;"></i></i></a>
+          <a href="#"><i class="fa-brands fa-twitter fa-2xl social-logo"></i></a>
+          <a href="#"><i class="fa-brands fa-snapchat fa-2xl social-logo" style="color: #4d4d07;"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram fa-2xl social-logo" style="color: #125dde;"></i></a>
+        </div>
+        </div>
+        
+        <div class="contact-form">
+          <h2>Contact Form</h2>
+          <form action="mailto:singhaman8796@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+  
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+  
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+  
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 VitafitX. All rights reserved.</p>
+    </div>
+  </footer>
+<script src="index.js"></script>
+</body>
+</html>
