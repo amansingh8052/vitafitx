@@ -226,7 +226,11 @@
     max-width: 105%;
     height: auto;
   }
-  
+   }
+  @media (max-width:600px){
+    .hero{
+      height: 65rem;
+    }}
   /* About section styles */
   .about {
     background-color: #ded4d4;
