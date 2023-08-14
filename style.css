@@ -491,6 +491,7 @@ header h1 {
 .contact-form input, .contact-form textarea {
   margin-bottom: 15px;
   padding: 10px;
+  overflow: hidden;
 }
 
 .contact-form button {
