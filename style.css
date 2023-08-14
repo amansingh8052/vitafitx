@@ -227,16 +227,25 @@
     height: auto;
   }
    }
-  @media (max-width:600px){
+    @media (max-width:600px){
     .hero{
-      height: 65rem;
+      height: 62rem;
     }
     .hero h1 {
       font-size: 25px;
-     
     }
     #logo1{
       width: 150px;
+      left: 200px;
+      top: 170px;
+    }
+    
+    .hero p {
+      font-size: 15px;
+    }
+  
+     p.text{
+      font-size: 15px;
     }
   }
   /* About section styles */
