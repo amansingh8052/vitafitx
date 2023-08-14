@@ -230,7 +230,15 @@
   @media (max-width:600px){
     .hero{
       height: 65rem;
-    }}
+    }
+    .hero h1 {
+      font-size: 25px;
+     
+    }
+    #logo1{
+      width: 150px;
+    }
+  }
   /* About section styles */
   .about {
     background-color: #ded4d4;
