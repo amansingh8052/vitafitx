@@ -224,18 +224,18 @@
     
     
   }
-  @media (max-width:360px){
+  @media (max-width:420px){
     .hero{
-      height: 55rem;
+      height: 45rem;
     }
     .hero h1 {
       font-size: 32px;
       margin-left: 10px;
     }
     #logo1{
-      width: 100px;
-      left: 230px;
-      top: 180px;
+      width: 120px;
+      left: 200px;
+      top: 200px;
     }
     
     .hero p {
@@ -250,7 +250,7 @@
     }
     .image-container{
       position: absolute;
-       bottom: -250px;
+       bottom: -200px;
        left: -350px;
        max-width: 165%;
     }
@@ -259,7 +259,7 @@
     }
     .contact {
       flex-direction: column;
-      height: 83rem;
+      height: 100rem;
     }
     .cta-btn{
       margin-left: 10px;    
