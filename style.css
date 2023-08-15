@@ -138,11 +138,12 @@
   /* Hero section styles */
   .hero {
     background-image: url(images/bg.jpg); 
+    background-size: cover;
     text-align: left;
     padding: 255px 0;
     background-color: #777;
     color: #fff;
-    max-width: 100%;
+    width: 100%;
     height: 47rem;
     
     
@@ -174,6 +175,7 @@
     font-weight: lighter;
     font-size: 17px;
     margin: 20px 0 30px 50px;
+    
   }
   
   .cta-btn {
@@ -222,51 +224,67 @@
     
     
   }
-  .image-container img {
-    max-width: 105%;
-    height: auto;
-  }
-   }
-    @media (max-width:600px){
+  @media (max-width:360px){
     .hero{
       height: 67rem;
     }
     .hero h1 {
-      font-size: 20px;
-      margin-left:10px;
+      font-size: 10px;
+      margin-left: 6px;
     }
     #logo1{
-      width: 120px;
+      width: 100px;
       left: 200px;
       top: 170px;
     }
     
     .hero p {
-      font-size: 12px;
-      margin-left: 10px;
-      margin-right: 2px; 
+      font-size: 7px;
+      margin-left: 6px;
     }
   
      p.text{
-      font-size: 10px;
-      margin-left: 10px;
-      margin-right: 2px;    
+      font-size: 5px;
+      margin-left: 6px;
+      width: 95%;
     }
     .image-container{
       position: absolute;
        bottom: -300px;
        left: -350px;
-       max-width: 155%;
-    }    
+       max-width: 165%;
+    }
+    .social-logo{
+      margin-right: 6px;
+    }
+    .contact {
+      flex-direction: column;
+      height: 65rem;
+    }
+    
   }
+  @media (max-width:480px){
+    .image-container{
+      position: absolute;
+      bottom: -100px;
+      left: -350px;
+    }
+  }
+   
+  .image-container img {
+    max-width: 105%;
+    height: auto;
+  }
+  
   /* About section styles */
   .about {
     background-color: #ded4d4;
     padding: 1px 0;
-    max-width: 100%;
+    width: 100%;
     /* height: 50rem; */
     height: max-content;
     text-align: center;
+    
   }
   
   .about h2 {
@@ -293,7 +311,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+    overflow: hidden;
   }
   @media (max-width:1400px){
     .container0{
@@ -323,6 +341,7 @@
    text-align: center;
    width: 100%;
    height: max-content;
+  
 }
   
 .services h2 {
@@ -454,6 +473,7 @@
 .contact{
   background-color: #dccfcf;
   color: #333;
+  height: fit-content;
 }  
 header {
   text-align: center;
@@ -511,6 +531,7 @@ header h1 {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+ 
 }
 
 @media (max-width: 768px) {
@@ -541,4 +562,5 @@ header h1 {
       color: #fff;
       padding: 10px;
       text-align: center;
+      
     }
