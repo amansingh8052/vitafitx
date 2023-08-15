@@ -235,7 +235,7 @@
     #logo1{
       width: 120px;
       left: 190px;
-      top: 180px;
+      top: 185px;
     }
     
     .hero p {
@@ -250,7 +250,7 @@
     }
     .image-container{
       position: absolute;
-       bottom: 0px;
+       top: -100px;
        left: -350px;
        max-width: 165%;
     }
