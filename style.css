@@ -233,7 +233,7 @@
     }
     .hero h1 {
       font-size: 20px;
-      margin-left:20px;
+      margin-left:10px;
     }
     #logo1{
       width: 120px;
@@ -243,12 +243,14 @@
     
     .hero p {
       font-size: 12px;
-      margin-left:20px;  
+      margin-left: 10px;
+      margin-right: 2px; 
     }
   
      p.text{
       font-size: 10px;
-      margin-left:20px;   
+      margin-left: 10px;
+      margin-right: 2px;    
     }
     .image-container{
       position: absolute;
