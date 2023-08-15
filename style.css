@@ -226,26 +226,26 @@
   }
   @media (max-width:360px){
     .hero{
-      height: 67rem;
+      height: 60rem;
     }
     .hero h1 {
-      font-size: 10px;
-      margin-left: 6px;
+      font-size: 20px;
+      margin-left: 10px;
     }
     #logo1{
       width: 100px;
-      left: 200px;
+      left: 230px;
       top: 170px;
     }
     
     .hero p {
-      font-size: 7px;
-      margin-left: 6px;
+      font-size: 17px;
+      margin-left: 10px;
     }
   
      p.text{
-      font-size: 5px;
-      margin-left: 6px;
+      font-size: 15px;
+      margin-left: 10px;
       width: 95%;
     }
     .image-container{
@@ -259,7 +259,7 @@
     }
     .contact {
       flex-direction: column;
-      height: 65rem;
+      height: 75rem;
     }
     
   }
@@ -548,8 +548,6 @@ header h1 {
 }
 .social{
   display: flex;
-  flex-wrap: wrap;
-  
 }
 .social-logo{
   margin-right: 20px;
