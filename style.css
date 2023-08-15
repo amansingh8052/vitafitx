@@ -235,7 +235,7 @@
     #logo1{
       width: 120px;
       left: 200px;
-      top: 200px;
+      top: 190px;
     }
     
     .hero p {
@@ -250,7 +250,7 @@
     }
     .image-container{
       position: absolute;
-       bottom: -200px;
+       bottom: -100px;
        left: -350px;
        max-width: 165%;
     }
@@ -258,8 +258,7 @@
       margin-right: 6px;
     }
     .contact {
-      flex-direction: column;
-      height: 100rem;
+      height: 150rem;
     }
     .cta-btn{
       margin-left: 10px;    
